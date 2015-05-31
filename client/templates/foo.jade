@@ -1,0 +1,17 @@
+template(name='foo')
+  .foo
+    +Scene
+      +Node size="A:1000; A:1000"
+        +DOMElement class="background" style="color: black"
+        
+      +Node size="A:300; A:95" align="[.8,.5]" mountPoint="[1,1]"
+        +DOMElement id="logo"
+          img(src="http://i.imgur.com/U11Hykr.png")
+        
+      +Node size="A:300; A:40" align="[.17,.7]"
+        +DOMElement id="getStarted" style="border: 1px solid white"
+          | GET STARTED
+      
+      +Node size="A:200; A:200"
+        +DOMElement id="gradient"
+          img(src="http://i.imgur.com/cBUhurv.png")
