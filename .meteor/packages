@@ -7,7 +7,9 @@
 meteor-platform
 autopublish
 insecure
-mjn:famous
 mquandalle:jade
-gadicohen:famous-views
 coffeescript
+iron:router
+gadicohen:famous-views@1.0.0-pre.4
+gadicohen:famous
+fourseven:scss
